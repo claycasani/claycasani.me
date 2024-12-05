@@ -1,0 +1,106 @@
+body {
+    background-color: #E8DED2;
+    padding: 1px 10px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    max-width: 60ch;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 16px; /* Adjusted for better visibility */
+    color: #111;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: grid;
+    grid-column: 2;
+    align-items: center;
+
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #111;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adds hover effect */
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+#headshot {
+    width:65%;
+    margin-top: -40px;
+    align-items: ;
+    display: flex;
+    justify-self: end;
+    align-self: start;
+}
+#signature {
+    width:60%;
+    justify-self: end;
+    display: grid;
+    margin-right: 10px;
+    margin-top: -100px;
+}
+
+hr {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    max-width:30ch;
+    text-transform: uppercase;
+}
+
+#description {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    max-width: 50ch;
+}
