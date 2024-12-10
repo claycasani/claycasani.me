@@ -238,12 +238,16 @@ nav ul li a:active { font-weight: bold; transform: translateX(-50%) scale(1.08) 
     color: #111;
 }
 
+footer {
+    display: none;
+    height: 20px
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {
     .topbar {
         grid-template-columns: 1fr;
-        text-align: center;
     }
 
     nav ul {
@@ -261,6 +265,7 @@ nav ul li a:active { font-weight: bold; transform: translateX(-50%) scale(1.08) 
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 0 20px;
+        place-items: center;
     }
 
     #project {
@@ -273,4 +278,9 @@ nav ul li a:active { font-weight: bold; transform: translateX(-50%) scale(1.08) 
         max-width: 100%;
         margin-left: 0;
     }
+
+    footer {
+        display: block;
+    }
+
 }
